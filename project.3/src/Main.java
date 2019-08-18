@@ -1,8 +1,7 @@
-package com.company;
+import java.util.*;
+public class Main
+{
 
-import java.util.Scanner;
-
-public class add {
     public static void main(String[] args)
     {
         int n;
@@ -10,7 +9,7 @@ public class add {
         System.out.println("Enter n:");
         n=scan.nextInt();
         for(int i=1;i<=10;i++) {
-            System.out.println(+n + " + " + i + " = " + (n + i));
+            System.out.println(+n + " x " + i + " = " + (n * i));
         }
 
     }
